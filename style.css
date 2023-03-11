@@ -53,8 +53,10 @@ button{
     cursor:pointer;
 }
 
-button:hover{
-    box-shadow:2px 2px 25px black inset;
+@media (min-width:767px) {
+    button:hover{
+        box-shadow:2px 2px 25px black inset;
+    }   
 }
 
 .clear{
